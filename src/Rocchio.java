@@ -279,8 +279,19 @@ public class Rocchio {
         System.out.println("Top "+n+" entries:");
         for (Entry<String, Double> entry : greatest)
         {
-            System.out.println(entry);
-            
+            ArrayList<String> s = new ArrayList<String>();
+//            System.out.println(entry);
+            if(entry.toString().startsWith("H")){
+                s.add("Hamilton");
+            System.out.println("Hamilton");
+            }
+            if(entry.toString().startsWith("M")){
+                s.add("Madison");
+            System.out.println("Madison");
+            }
+//            for(String d:s){
+//            
+//            }
         }
 
               } 
